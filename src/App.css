@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.App {
+  position: relative;
+  overflow-y: hidden;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/pattern-hills.svg);
+  background-color: #1d1e28;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.timer {
+  margin-top: 132px;
+}
+
+@media screen and (max-width: 660px) {
+  .timer .header {
+    font-size: 18px;
+  }
+}
+
+.timer h1 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 7.5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.clock {
+  /* background-color: red; */
+  max-width: 688px;
+  width: 100%;
+  margin: 104px auto;
+  /* margin-top: 104px; */
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.clock p {
+  color: #fb5e84;
+  background-color: #191a23;
+  padding: 32px 24px;
+  margin-bottom: 26px;
+  width: 148px;
+  font-family: Red Hat Text;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -2.4000000953674316px;
+  text-align: center;
+}
+
+@media screen and (max-width: 660px) {
+  .clock p {
+    padding: 8px 10px;
+    width: 70px;
+  }
+}
+
+.clock small {
+  color: #8385a9;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 5.918749809265137px;
+  text-align: center;
+}
+
+@media screen and (max-width: 660px) {
+  .clock small {
+    font-size: 7px;
+    font-weight: 700;
+    line-height: 9px;
+    letter-spacing: 2.9593749046325684px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .clock p {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -1.0800000429153442px;
+    text-align: center;
+  }
+}
+
+.bg {
+  background-image: url(./images/bg-stars.svg);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* background-size: contain; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 141px;
+}
+
+footer .face {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+  color: #8385A9;
+}
+
+footer .pint {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+  color: #8385A9;
+}
+
+footer .insta {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  color: #8385A9;
+}
+
+footer .face:hover {
+  color: #FB5E84;
+}
+
+footer .pint:hover {
+  color: #FB5E84;
+}
+
+
+footer .insta:hover {
+  color: #FB5E84;
+}
